@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.srg70" version="1.0.0" name="srg70 Repository" provider-name="srg70">
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">srg70 Repository</summary>
+  <summary lang="ru">Репозиторий srg70</summary>
+  <description lang="en">Addon repository by srg70</description>
+  <description lang="ru">Репозиторий дополнений srg70</description>
+  <platform>all</platform>
+</extension>
+<extension point="xbmc.addon.repository" name="srg70 repository">
+  <info compressed="false">http://vadyur.github.io/kodi_repo/repo/addons.xml</info>
+  <checksum>http://vadyur.github.io/kodi_repo/repo/addons.xml.md5</checksum>
+  <datadir zip="true">http://vadyur.github.io/kodi_repo/repo</datadir>
+</extension>
+</addon>
