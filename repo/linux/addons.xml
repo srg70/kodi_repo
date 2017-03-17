@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
 <addon id="pvr.puzzle.tv" version="0.0.18" name="PVR Puzzle TV" provider-name="srg70">
   <requires>
     <c-pluff version="0.1"/>
@@ -6,7 +7,7 @@
   </requires>
   <extension
     point="xbmc.pvrclient"
-    library_osx="pvr.puzzle.tv.0.0.18.dylib"/>
+    library_linux="pvr.puzzle.tv.so.0.0.18"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_US">Kodi PVR addon for IPTV support. Designed to agregate IPTV servise from different providers.</summary>
     <summary lang="ru_RU">Kodi PVR аддон для поддержки IPTV. Позволяет интегрировать IPTV-услуги разных провайдеров</summary>
@@ -14,6 +15,7 @@
     <description lang="ru_RU">Интерфейс для IPTV. Поддерживает просмотр потокового ТВ, прослушивание радиоканалов и работу с электронным телегидом от поствщиков услуг, используя специализированный интерфейс. Есть возможность расширения. Пока поддерживается только Sovok TV провайдер.</description>
     <disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
     <disclaimer lang="ru_RU">Это нестабильная программа! Авторы не несут ответственности за неудачные воспроизведение, неверные время EPG, потраченное время и прочие нежелательные эффекты.</disclaimer>
-     <platform>osx</platform>
+     <platform>linux</platform>
   </extension>
 </addon>
+</addons>
