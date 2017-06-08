@@ -1,5 +1,6 @@
 import os
 import sys
+import codecs
 
 # Compatibility with 3.0, 3.1 and 3.2 not supporting u"" literals
 if sys.version < '3':
