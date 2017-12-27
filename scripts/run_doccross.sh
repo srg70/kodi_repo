@@ -61,7 +61,7 @@ fi
 if [ "$platform" = "linux-x86" ]; then
 docker run --rm dockcross/linux-x86 > ./dockcross-linux-x86
 chmod +x ./dockcross-linux-x86
-./dockcross-linux-x64 bash -c "./cmake.sh $repo $ver $KODI_ROOT"
+./dockcross-linux-x86 bash -c "./cmake.sh $repo $ver $KODI_ROOT"
 fi
 
 #android-arm
