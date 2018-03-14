@@ -44,6 +44,7 @@ CD %CUR_PATH%
 SET kodi_cmake_addon=xbmc/project/cmake/addons/addons/%addon%
 IF EXIST "%kodi_cmake_addon%" RD /q /s "%kodi_cmake_addon%"
 MKDIR "%kodi_cmake_addon%"
+IF %errorlevel% neq 0 EXIT /b %errorlevel%
 CD "%kodi_cmake_addon%"
 ECHO all>platforms.txt
 ECHO %addon% https://github.com/srg70/%addon% master > %addon%.txt
@@ -54,12 +55,21 @@ ECHO Building addon %addon% ...
 ECHO --------------------------------------------------
 CD %CUR_PATH%
 CD xbmc\tools\buildsteps\win32
-REM CALL make-addons.bat %addon% clean
-REM CALL make-addons.bat %addon% package
+CALL make-addons.bat %addon% clean
+CALL make-addons.bat %addon% package
+
+IF %errorlevel% NEQ 0 GOTO :error
 
 ECHO --------------------------------------------------
 ECHO Updateing GIT repository ...
 ECHO --------------------------------------------------
+
+REM GOTO :exit
+
+CD %CUR_PATH%
+CD  kodi_repo
+git reset --hard HEAD
+git pull
 
 CD %CUR_PATH%
 
@@ -91,4 +101,11 @@ CD ..\..
 git add "repo\windows-x86\addons.*"
 git add "repo\windows-x86\%addon%"
 git commit  --author="Sergey Shramchenko <sergey.shramchenko@gmail.com>" -m "Win-x86-%addon%-%version%"
-rem git push
+git push
+
+GOTO :exit
+
+:error
+echo There was an error during build!
+
+:exit
