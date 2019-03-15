@@ -30,5 +30,5 @@ md5_file="${zip_file}.md5"
 rm -f ${zip_file}
 rm -f ${md5_file}
 
-zip -vr "${zip_file}" "${repo}" -x .git .gitignore *.DS_Store
+zip -vr "${zip_file}" "${repo}" -x *.git *.gitignore *.DS_Store *.zip*
 md5sum "${zip_file}" | cut -d' ' -f1 | tr -d '\n' > "${md5_file}"
