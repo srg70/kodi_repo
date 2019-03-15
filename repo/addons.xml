@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.srg70" version="1.0.0" name="srg70 Repository" provider-name="srg70">
+<addon id="repository.srg70.linux-arm64" version="1.0.0" name="srg70 Repository for Linux-arm-64bit" provider-name="srg70">
 <extension point="xbmc.addon.metadata">
-  <summary lang="en">srg70 Repository</summary>
-  <summary lang="ru">Репозиторий srg70</summary>
-  <description lang="en">Addon repository by srg70</description>
-  <description lang="ru">Репозиторий дополнений srg70</description>
-  <platform>all</platform>
+  <summary lang="en">srg70 Repository for Linux-arm-64bit (aka aarch64)</summary>
+  <summary lang="ru">Linux-arm-64bit (aka aarch64) Репозиторий srg70</summary>
+  <description lang="en">Addon repository for Linux-arm-64bit (aka aarch64) by srg70</description>
+  <description lang="ru">Linux-arm-64bit (aka aarch64) Репозиторий дополнений srg70</description>
+  <platform>linux</platform>
 </extension>
-<extension point="xbmc.addon.repository" name="srg70 repository">
-  <info compressed="false">https://github.com/srg70/kodi_repo/raw/master/repo/addons.xml</info>
-  <checksum>https://github.com/srg70/kodi_repo/raw/master/repo/addons.xml.md5</checksum>
-  <datadir zip="true">https://github.com/srg70/kodi_repo/raw/master/repo</datadir>
+<extension point="xbmc.addon.repository" name="srg70 repository Linux-arm-64bit (aka aarch64)">
+  <info compressed="false">https://github.com/srg70/kodi_repo/raw/master/repo/linux-arm64/addons.xml</info>
+  <checksum>https://github.com/srg70/kodi_repo/raw/master/repo/linux-arm64/addons.xml.md5</checksum>
+  <datadir zip="true">https://github.com/srg70/kodi_repo/raw/master/repo/linux-arm64</datadir>
 </extension>
 </addon>
 
@@ -30,18 +30,60 @@
 </extension>
 </addon>
 
-<addon id="repository.srg70.linux-arm64" version="1.0.0" name="srg70 Repository for Linux-arm-64bit" provider-name="srg70">
+<addon id="repository.srg70.linux-x64" version="1.0.0" name="srg70 Repository for Linux-x86-64bit" provider-name="srg70">
 <extension point="xbmc.addon.metadata">
-  <summary lang="en">srg70 Repository for Linux-arm-64bit (aka aarch64)</summary>
-  <summary lang="ru">Linux-arm-64bit (aka aarch64) Репозиторий srg70</summary>
-  <description lang="en">Addon repository for Linux-arm-64bit (aka aarch64) by srg70</description>
-  <description lang="ru">Linux-arm-64bit (aka aarch64) Репозиторий дополнений srg70</description>
+  <summary lang="en">srg70 Repository for Linux-x86-64bit</summary>
+  <summary lang="ru">Linux-x86-64bit Репозиторий srg70</summary>
+  <description lang="en">Addon repository for Linux-x86-64bit by srg70</description>
+  <description lang="ru">Linux-x86-64bit Репозиторий дополнений srg70</description>
   <platform>linux</platform>
 </extension>
-<extension point="xbmc.addon.repository" name="srg70 repository Linux-arm-64bit (aka aarch64)">
-  <info compressed="false">https://github.com/srg70/kodi_repo/raw/master/repo/linux-arm64/addons.xml</info>
-  <checksum>https://github.com/srg70/kodi_repo/raw/master/repo/linux-arm64/addons.xml.md5</checksum>
-  <datadir zip="true">https://github.com/srg70/kodi_repo/raw/master/repo/linux-arm64</datadir>
+<extension point="xbmc.addon.repository" name="srg70 repository Linux-x86-64bit">
+  <info compressed="false">https://github.com/srg70/kodi_repo/raw/master/repo/linux-x64/addons.xml</info>
+  <checksum>https://github.com/srg70/kodi_repo/raw/master/repo/linux-x64/addons.xml.md5</checksum>
+  <datadir zip="true">https://github.com/srg70/kodi_repo/raw/master/repo/linux-x64</datadir>
+</extension>
+</addon>
+
+<addon id="repository.srg70.osx" version="1.1.0" name="srg70 Repository for OS X" provider-name="srg70">
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">srg70 Repository for OS X</summary>
+  <summary lang="ru">OS X Репозиторий srg70</summary>
+  <description lang="en">Addon repository for OS X by srg70</description>
+  <description lang="ru">OS X Репозиторий дополнений srg70</description>
+  <platform>osx</platform>
+</extension>
+<extension point="xbmc.addon.repository" name="srg70 Repository for OS X">
+    <dir minversion="17.0.0">
+        <info compressed="false">https://github.com/srg70/kodi_repo/raw/master/repo/osx/addons.xml</info>
+        <checksum>https://github.com/srg70/kodi_repo/raw/master/repo/osx/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/srg70/kodi_repo/raw/master/repo/osx</datadir>
+    </dir>
+    <dir minversion="17.9.0">
+        <info compressed="false">https://github.com/srg70/kodi_leia/raw/master/repo/osx-x86_64/addons.xml</info>
+        <checksum>https://github.com/srg70/kodi_leia/raw/master/repo/osx-x86_64/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/srg70/kodi_leia/raw/master/repo/osx-x86_64</datadir>
+    </dir>
+    <dir minversion="18.0.0">
+        <info compressed="false">https://github.com/srg70/kodi_leia/raw/master/repo/osx-x86_64/addons.xml</info>
+        <checksum>https://github.com/srg70/kodi_leia/raw/master/repo/osx-x86_64/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/srg70/kodi_leia/raw/master/repo/osx-x86_64</datadir>
+    </dir>
+</extension>
+</addon>
+
+<addon id="repository.srg70" version="1.0.0" name="srg70 Repository" provider-name="srg70">
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">srg70 Repository</summary>
+  <summary lang="ru">Репозиторий srg70</summary>
+  <description lang="en">Addon repository by srg70</description>
+  <description lang="ru">Репозиторий дополнений srg70</description>
+  <platform>all</platform>
+</extension>
+<extension point="xbmc.addon.repository" name="srg70 repository">
+  <info compressed="false">https://github.com/srg70/kodi_repo/raw/master/repo/addons.xml</info>
+  <checksum>https://github.com/srg70/kodi_repo/raw/master/repo/addons.xml.md5</checksum>
+  <datadir zip="true">https://github.com/srg70/kodi_repo/raw/master/repo</datadir>
 </extension>
 </addon>
 
@@ -60,21 +102,6 @@
 </extension>
 </addon>
 
-<addon id="repository.srg70.linux-x64" version="1.0.0" name="srg70 Repository for Linux-x86-64bit" provider-name="srg70">
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">srg70 Repository for Linux-x86-64bit</summary>
-  <summary lang="ru">Linux-x86-64bit Репозиторий srg70</summary>
-  <description lang="en">Addon repository for Linux-x86-64bit by srg70</description>
-  <description lang="ru">Linux-x86-64bit Репозиторий дополнений srg70</description>
-  <platform>linux</platform>
-</extension>
-<extension point="xbmc.addon.repository" name="srg70 repository Linux-x86-64bit">
-  <info compressed="false">https://github.com/srg70/kodi_repo/raw/master/repo/linux-x64/addons.xml</info>
-  <checksum>https://github.com/srg70/kodi_repo/raw/master/repo/linux-x64/addons.xml.md5</checksum>
-  <datadir zip="true">https://github.com/srg70/kodi_repo/raw/master/repo/linux-x64</datadir>
-</extension>
-</addon>
-
 <addon id="repository.srg70.linux-x86" version="1.0.0" name="srg70 Repository for Linux-x86-32bit" provider-name="srg70">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">srg70 Repository for Linux-x86-32bit</summary>
@@ -87,21 +114,6 @@
   <info compressed="false">https://github.com/srg70/kodi_repo/raw/master/repo/linux-x86/addons.xml</info>
   <checksum>https://github.com/srg70/kodi_repo/raw/master/repo/linux-x86/addons.xml.md5</checksum>
   <datadir zip="true">https://github.com/srg70/kodi_repo/raw/master/repo/linux-x86</datadir>
-</extension>
-</addon>
-
-<addon id="repository.srg70.osx" version="1.0.0" name="srg70 Repository for OS X" provider-name="srg70">
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">srg70 Repository for OS X</summary>
-  <summary lang="ru">OS X Репозиторий srg70</summary>
-  <description lang="en">Addon repository for OS X by srg70</description>
-  <description lang="ru">OS X Репозиторий дополнений srg70</description>
-  <platform>osx</platform>
-</extension>
-<extension point="xbmc.addon.repository" name="srg70 repository OS X">
-  <info compressed="false">https://github.com/srg70/kodi_repo/raw/master/repo/osx/addons.xml</info>
-  <checksum>https://github.com/srg70/kodi_repo/raw/master/repo/osx/addons.xml.md5</checksum>
-  <datadir zip="true">https://github.com/srg70/kodi_repo/raw/master/repo/osx</datadir>
 </extension>
 </addon>
 
