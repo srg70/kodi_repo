@@ -8,7 +8,6 @@
   <platform>windows</platform>
 </extension>
 <extension point="xbmc.addon.repository" name="srg70 repository Windows-x64-64bit">
-    </dir>
     <dir minversion="18.0.0">
         <info compressed="false">https://github.com/srg70/kodi_leia/raw/master/repo/windows-x86_64/addons.xml</info>
         <checksum>https://github.com/srg70/kodi_leia/raw/master/repo/windows-x86_64/addons.xml.md5</checksum>
