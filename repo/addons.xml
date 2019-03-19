@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.srg70.linux-arm64" version="1.0.0" name="srg70 Repository for Linux-arm-64bit" provider-name="srg70">
+<addon id="repository.srg70.linux-arm64" version="1.1.2" name="srg70 Repository for Linux-arm-64bit" provider-name="srg70">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">srg70 Repository for Linux-arm-64bit (aka aarch64)</summary>
   <summary lang="ru">Linux-arm-64bit (aka aarch64) Репозиторий srg70</summary>
@@ -22,7 +22,7 @@
 </extension>
 </addon>
 
-<addon id="repository.srg70.android-arm" version="1.0.0" name="srg70 Repository for `Android-arm" provider-name="srg70">
+<addon id="repository.srg70.android-arm" version="1.1.2" name="srg70 Repository for `Android-arm" provider-name="srg70">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">srg70 Repository for Android-arm</summary>
   <summary lang="ru">Android-arm Репозиторий srg70</summary>
@@ -44,7 +44,7 @@
 </extension>
 </addon>
 
-<addon id="repository.srg70.linux-x64" version="1.0.0" name="srg70 Repository for Linux-x86-64bit" provider-name="srg70">
+<addon id="repository.srg70.linux-x64" version="1.1.2" name="srg70 Repository for Linux-x86-64bit" provider-name="srg70">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">srg70 Repository for Linux-x86-64bit</summary>
   <summary lang="ru">Linux-x86-64bit Репозиторий srg70</summary>
@@ -66,7 +66,7 @@
 </extension>
 </addon>
 
-<addon id="repository.srg70.osx" version="1.1.1" name="srg70 Repository for OS X" provider-name="srg70">
+<addon id="repository.srg70.osx" version="1.1.2" name="srg70 Repository for OS X" provider-name="srg70">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">srg70 Repository for OS X</summary>
   <summary lang="ru">OS X Репозиторий srg70</summary>
@@ -103,7 +103,7 @@
 </extension>
 </addon>
 
-<addon id="repository.srg70.linux-armv7" version="1.0.0" name="srg70 Repository for Linux-armv7" provider-name="srg70">
+<addon id="repository.srg70.linux-armv7" version="1.1.2" name="srg70 Repository for Linux-armv7" provider-name="srg70">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">srg70 Repository for Linux-armv7</summary>
   <summary lang="ru">Linux-armv7 Репозиторий srg70</summary>
@@ -125,7 +125,7 @@
 </extension>
 </addon>
 
-<addon id="repository.srg70.linux-x86" version="1.0.0" name="srg70 Repository for Linux-x86-32bit" provider-name="srg70">
+<addon id="repository.srg70.linux-x86" version="1.1.2" name="srg70 Repository for Linux-x86-32bit" provider-name="srg70">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">srg70 Repository for Linux-x86-32bit</summary>
   <summary lang="ru">Linux-x86-32bit Репозиторий srg70</summary>
@@ -147,7 +147,7 @@
 </extension>
 </addon>
 
-<addon id="repository.srg70.windows-x86" version="1.0.0" name="srg70 Repository for Windows-x86-32bit" provider-name="srg70">
+<addon id="repository.srg70.windows-x86" version="1.1.2" name="srg70 Repository for Windows-x86-32bit" provider-name="srg70">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">srg70 Repository for Windows-x86-32bit</summary>
   <summary lang="ru">Windows-x86-32bit Репозиторий srg70</summary>
