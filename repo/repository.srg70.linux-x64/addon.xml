@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.srg70.linux-x64" version="1.1.2" name="srg70 Repository for Linux-x86-64bit" provider-name="srg70">
+<addon id="repository.srg70.linux-x64" version="1.1.3" name="srg70 Repository for Linux-x86-64bit" provider-name="srg70">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">srg70 Repository for Linux-x86-64bit</summary>
   <summary lang="ru">Linux-x86-64bit Репозиторий srg70</summary>
@@ -17,6 +17,11 @@
         <info compressed="false">https://github.com/srg70/kodi_leia/raw/master/repo/linux-x64/addons.xml</info>
         <checksum>https://github.com/srg70/kodi_leia/raw/master/repo/linux-x64/addons.xml.md5</checksum>
         <datadir zip="true">https://github.com/srg70/kodi_leia/raw/master/repo/linux-x64</datadir>
+    </dir>
+    <dir minversion="19.0.0">
+        <info compressed="false">https://github.com/srg70/kodi_matrix/raw/master/repo/linux-x64/addons.xml</info>
+        <checksum>https://github.com/srg70/kodi_matrix/raw/master/repo/linux-x64/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/srg70/kodi_matrix/raw/master/repo/linux-x64</datadir>
     </dir>
 </extension>
 </addon>
