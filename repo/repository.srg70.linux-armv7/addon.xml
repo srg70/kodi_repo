@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.srg70.linux-armv7" version="1.2.0" name="srg70 Repository for Linux-armv7" provider-name="srg70">
+<addon id="repository.srg70.linux-armv7" version="1.2.1" name="srg70 Repository for Linux-armv7" provider-name="srg70">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">srg70 Repository for Linux-armv7</summary>
   <summary lang="ru">Linux-armv7 Репозиторий srg70</summary>
@@ -19,9 +19,9 @@
         <datadir zip="true">https://github.com/srg70/kodi_leia/raw/master/repo/linux-armv7</datadir>
     </dir>
     <dir minversion="19.0.0">
-        <info compressed="false">https://github.com/srg70/kodi_matrix/raw/master/repo/linux-armv7/addons.xml</info>
-        <checksum>https://github.com/srg70/kodi_matrix/raw/master/repo/linux-armv7/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/srg70/kodi_matrix/raw/master/repo/linux-armv7</datadir>
+        <info compressed="false">https://github.com/srg70/kodi_matrix/raw/main/repo/linux-armv7/addons.xml</info>
+        <checksum>https://github.com/srg70/kodi_matrix/raw/main/repo/linux-armv7/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/srg70/kodi_matrix/raw/main/repo/linux-armv7</datadir>
     </dir>
 </extension>
 </addon>
